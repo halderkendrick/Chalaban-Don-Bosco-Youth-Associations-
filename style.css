@@ -1,0 +1,84 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+h1 {
+  color: #ffffff;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+}  
+p {
+  color: #ffffff;
+  font-size: x-large;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+}  
+  body {
+      background: linear-gradient( rgba(0,0,0,0,9), rgba(0,0,0,0,9));
+      background-image: url(youths.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      height: 500px;
+      width: auto;
+  }
+  #grad {
+    background-image: linear-gradient(to bottom right, red, yellow);
+  }
+  .gradient-bg {
+    background-image: linear-gradient(to right, #535353, #757273);
+    /* You can adjust the direction (to right, to bottom, etc.) and color values */
+    /* Other background properties can also be applied */
+    /* For example: */
+    /* background-size, background-repeat, background-position, etc. */
+}
+
+  /* Style the gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .gallery-image {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style the lightbox */
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+  }
+  
+  .lightbox img {
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+  }
+  
+  .close {
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .caption {
+    color: #fff;
+    margin: 10px 0;
+    display: block;
+  }
+  
